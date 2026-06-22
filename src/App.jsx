@@ -4,6 +4,7 @@ import Typography from '@mui/material/Typography';
 
 import Section01Buttons from './components/sections/Section01Buttons';
 import Section02Inputs from './components/sections/Section02Inputs';
+import Section03Menu from './components/sections/Section03Menu';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
 
         <Section01Buttons />
         <Section02Inputs />
+        <Section03Menu />
 
       </Container>
     </Box>
