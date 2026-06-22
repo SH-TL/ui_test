@@ -9,7 +9,7 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import Typography from '@mui/material/Typography';
 import HomeIcon from '@mui/icons-material/Home';
-import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
+import InfoIcon from '@mui/icons-material/Info';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import LogoutIcon from '@mui/icons-material/Logout';
 import NotificationsIcon from '@mui/icons-material/Notifications';
@@ -22,7 +22,7 @@ const MENU_ITEMS = [
   { label: 'Profile', icon: <PersonIcon fontSize='small' /> },
   { label: 'Notifications', icon: <NotificationsIcon fontSize='small' /> },
   { label: 'Settings', icon: <SettingsIcon fontSize='small' /> },
-  { label: 'Help', icon: <HelpOutlineIcon fontSize='small' /> },
+  { label: 'Help', icon: <InfoIcon fontSize='small' /> },
   { divider: true },
   { label: 'Logout', icon: <LogoutIcon fontSize='small' />, color: 'error.main' },
 ];
