@@ -2,8 +2,7 @@ import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 
-// 섹션 컴포넌트들을 여기에 순서대로 import합니다
-// import Section01Buttons from './components/sections/Section01Buttons';
+import Section01Buttons from './components/sections/Section01Buttons';
 
 function App() {
   return (
@@ -27,8 +26,7 @@ function App() {
           UI Components Showcase
         </Typography>
 
-        {/* 섹션 컴포넌트들을 아래에 순서대로 추가합니다 */}
-        {/* <Section01Buttons /> */}
+        <Section01Buttons />
 
       </Container>
     </Box>
